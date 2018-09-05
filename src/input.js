@@ -7,7 +7,7 @@ registerPrompt('autocomplete', autocomplete)
 function readInput({ services }) {
   const source = async (_, input) => {
     if (input === undefined) return services
-    return services.filter(name => test(input, name))
+    return services.filter(({ name }) => test(input, name))
   }
 
   return prompt([
