@@ -4,12 +4,12 @@ const ow = require('ow')
 
 function validate({ salt, timeout, services }) {
   ow(salt, ow.string.label('salt').nonEmpty)
-  ow(timeout, ow.number.label('timeout').positive.integer)
+  ow(timeout, ow.number.label('timeout').integer.greaterThanOrEqual(0))
   ow(services, ow.array.label('service'))
   for ({ name, version, length } of services) {
     ow(name, ow.string.label('name').nonEmpty)
     ow(version, ow.number.label('version').positive.integer)
-    ow(length, ow.number.label('length').integer.greaterThan(0))
+    ow(length, ow.number.label('length').positive.integer)
   }
 }
 
