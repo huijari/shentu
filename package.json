@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/huijari/shentu/issues"
   },
-  "homepage": "https://github.com/huijari/shentu#readme"
+  "homepage": "https://github.com/huijari/shentu#readme",
+  "dependencies": {
+    "ow": "^0.6.0",
+    "toml": "^2.3.3"
+  }
 }
