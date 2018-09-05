@@ -1,4 +1,4 @@
-#!/usr/bin/sh node
+#!/usr/bin/env node
 
 const { run } = require('./src/cmd')
 run()
