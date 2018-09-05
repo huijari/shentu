@@ -1,0 +1,7 @@
+salt = "salt"
+timeout = 5
+
+[[service]]
+name = "shentu"
+version = 1
+length = 12
