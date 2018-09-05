@@ -1,0 +1,23 @@
+{
+  "name": "shentu",
+  "version": "1.0.0",
+  "description": "Deterministic password manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huijari/shentu.git"
+  },
+  "keywords": [
+    "deterministic",
+    "password manager"
+  ],
+  "author": "Alexandre Cesar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huijari/shentu/issues"
+  },
+  "homepage": "https://github.com/huijari/shentu#readme"
+}
